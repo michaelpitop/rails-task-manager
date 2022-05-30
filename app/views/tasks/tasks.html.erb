@@ -1,0 +1,5 @@
+<%= form_with model: @task do |form| %>
+  <%= form.text_field :title %>
+  <%= form.text_area :details, size: "60x10" %>
+  <%= form.submit %>
+<% end %>
